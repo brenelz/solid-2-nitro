@@ -30,7 +30,7 @@ export default {
           viteDev={import.meta.env.DEV}
           devStylePatch={devStylePatch}
         >
-          <App url={request.url} />
+          <App />
         </HtmlDocument>
       ), {
         manifest,

@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@solidjs/router": "0.17.0-next.6",
-    "@solidjs/web": "2.0.0-beta.21",
-    "solid-js": "2.0.0-beta.21",
-    "vite-plugin-solid": "3.0.0-next.14"
+    "@solidjs/router": "1.0.0-next.8",
+    "@solidjs/web": "2.0.0-beta.23",
+    "solid-js": "2.0.0-beta.23",
+    "vite-plugin-solid": "3.0.0-next.15"
   },
   "devDependencies": {
     "nitro": "3.0.260610-beta",
