@@ -5,3 +5,5 @@ minimumReleaseAgeExclude:
   - babel-preset-solid
   - solid-js
   - vite-plugin-solid
+patchedDependencies:
+  vite-plugin-solid@3.0.0-next.16: patches/vite-plugin-solid@3.0.0-next.16.patch

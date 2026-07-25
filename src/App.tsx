@@ -1,5 +1,6 @@
 import type { RouteSectionProps } from '@solidjs/router'
 import { paths, Router } from './router.ts'
+import './index.css'
 
 function Layout(props: RouteSectionProps) {
   return (
