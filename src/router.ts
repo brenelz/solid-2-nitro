@@ -18,11 +18,8 @@ import { pageRoutes } from 'virtual:file-routes'
  * so the tuple the generated declaration provides has to survive this step.
  */
 type RouteFrom<E> = E extends { path: infer P extends string }
-  ? {
+  ? Omit<RouteDefinition, 'path' | 'children'> & {
       path: P
-      component?: Component
-      preload?: RouteDefinition['preload']
-      info?: Record<string, unknown>
       children: E extends { children: infer C extends readonly unknown[] }
         ? { [K in keyof C]: RouteFrom<C[K]> }
         : undefined
