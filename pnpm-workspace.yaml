@@ -1,4 +1,7 @@
 resolutionMode: highest
+# @solidjs/file-routes is unpublished; point it at the local checkout.
+overrides:
+  "@solidjs/file-routes": link:../solid-router/packages/file-routes
 minimumReleaseAgeExclude:
   - "@dom-expressions/*"
   - "@solidjs/*"

@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@solidjs/file-routes': link:../solid-router/packages/file-routes
+
 patchedDependencies:
   vite-plugin-solid@3.0.0-next.16: 29480922db53d4869a2ee7b40a6198b40e34929c9152d610984868efec86b84d
 
@@ -11,6 +14,9 @@ importers:
 
   .:
     dependencies:
+      '@solidjs/file-routes':
+        specifier: link:../solid-router/packages/file-routes
+        version: link:../solid-router/packages/file-routes
       '@solidjs/router':
         specifier: 1.0.0-next.9
         version: 1.0.0-next.9(@solidjs/web@2.0.0-beta.23(solid-js@2.0.0-beta.23))(solid-js@2.0.0-beta.23)

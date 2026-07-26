@@ -1,6 +1,14 @@
 import { createMemo, Loading } from 'solid-js'
 import { hello, changeText } from '../api.ts'
 
+// Picked up by the file-routes scanner as this route's config and merged
+// into its definition — the preload that used to live in src/router.ts.
+export const route = {
+  preload() {
+    void hello()
+  },
+}
+
 export default function Index() {
   const asyncValue = createMemo(() => hello())
 
