@@ -3,7 +3,7 @@ import { lazy, type Component } from 'solid-js'
 import { pageRoutes } from 'virtual:file-routes'
 
 /**
- * This app's emission adapter for `@solidjs/file-routes`.
+ * This app's emission adapter for `filesystem-routes`.
  *
  * The Vite plugin scans `src/routes` with this app's naming convention (see
  * `toPath` in vite.config.ts) and serves the result from

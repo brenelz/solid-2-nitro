@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@solidjs/file-routes": "^0.1.0",
+    "filesystem-routes": "^0.1.0",
     "@solidjs/router": "1.0.0-next.9",
     "@solidjs/web": "2.0.0-beta.23",
     "solid-js": "2.0.0-beta.23",
