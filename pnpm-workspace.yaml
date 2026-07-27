@@ -1,12 +1,10 @@
 resolutionMode: highest
-# filesystem-routes is unpublished; point it at the local checkout.
-overrides:
-  "filesystem-routes": link:../filesystem-routes
 minimumReleaseAgeExclude:
   - "@dom-expressions/*"
   - "@solidjs/*"
   - babel-preset-solid
   - solid-js
   - vite-plugin-solid
+  - filesystem-routing
 patchedDependencies:
   vite-plugin-solid@3.0.0-next.16: patches/vite-plugin-solid@3.0.0-next.16.patch

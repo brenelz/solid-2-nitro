@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import solid, { serverFunctions } from 'vite-plugin-solid'
-import { fileRoutes } from 'filesystem-routes/vite'
+import { fileRoutes } from 'filesystem-routing/vite'
 import { nitro } from 'nitro/vite'
 
 export default defineConfig({
