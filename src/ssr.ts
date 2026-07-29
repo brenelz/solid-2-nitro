@@ -1,7 +1,7 @@
-import { handleRequest } from "virtual:solid-ssr-handler"
+import { handleRequest } from 'virtual:solid-ssr-handler'
 
 export default {
-    fetch(request: Request) {
-        return handleRequest(request)
-    },
+  fetch(request: Request) {
+    return handleRequest(request)
+  },
 }

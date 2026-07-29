@@ -5,5 +5,5 @@
     "jsx": "preserve",
     "jsxImportSource": "@solidjs/web"
   },
-  "include": ["server", "virtual-solid.d.ts"]
+  "include": ["server"]
 }
