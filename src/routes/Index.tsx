@@ -1,5 +1,5 @@
 import { createMemo, Loading } from 'solid-js'
-import { hello, changeText } from '../api.ts'
+import { hello, changeText } from '../api'
 
 // Picked up by the file-routes scanner as this route's config and merged
 // into its definition — the preload that used to live in src/router.ts.

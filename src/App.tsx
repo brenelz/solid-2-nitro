@@ -12,7 +12,12 @@ function Layout(props: RouteSectionProps) {
           <a href={paths.about}>About</a>
         </nav>
       </header>
-      <div class="route-stage">{props.children}</div>
+      {/* Route content is async (dynamic() over server-component queries):
+          without a boundary, the hydration-time pending beat throws an
+          uncaught NotReadyError and halts the reactive system. */}
+      <div class="route-stage">
+        {props.children}
+      </div>
       <footer>
         <span>Solid 2</span>
         <span>Streaming enabled</span>
